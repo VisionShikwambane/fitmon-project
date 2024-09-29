@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fitmon-api", "fitmon-api\fitmon-api.csproj", "{C0D3C9A1-96E7-451B-8A2B-22BADA82D074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fitmon-dbcontext", "fitmon-dbcontext\fitmon-dbcontext.csproj", "{5E4D6120-EA63-430B-915E-55A73AB9DE8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fitmon-datamodels", "fitmon-datamodels\fitmon-datamodels.csproj", "{7331C263-2FF8-43C2-B94A-7DCBF9DA2663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fitmon-businesslogic", "fitmon-businesslogic\fitmon-businesslogic.csproj", "{70142F78-823E-4035-AA9F-2552CD841D41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0D3C9A1-96E7-451B-8A2B-22BADA82D074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D3C9A1-96E7-451B-8A2B-22BADA82D074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D3C9A1-96E7-451B-8A2B-22BADA82D074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D3C9A1-96E7-451B-8A2B-22BADA82D074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E4D6120-EA63-430B-915E-55A73AB9DE8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E4D6120-EA63-430B-915E-55A73AB9DE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E4D6120-EA63-430B-915E-55A73AB9DE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E4D6120-EA63-430B-915E-55A73AB9DE8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7331C263-2FF8-43C2-B94A-7DCBF9DA2663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7331C263-2FF8-43C2-B94A-7DCBF9DA2663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7331C263-2FF8-43C2-B94A-7DCBF9DA2663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7331C263-2FF8-43C2-B94A-7DCBF9DA2663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70142F78-823E-4035-AA9F-2552CD841D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70142F78-823E-4035-AA9F-2552CD841D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70142F78-823E-4035-AA9F-2552CD841D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70142F78-823E-4035-AA9F-2552CD841D41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {353F271D-3913-4226-B1CF-F2702D2AAC23}
+	EndGlobalSection
+EndGlobal
