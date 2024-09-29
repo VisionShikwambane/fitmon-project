@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\fitmon-datamodels\fitmon-datamodels.csproj" />
+    <ProjectReference Include="..\fitmon-dbcontext\fitmon-dbcontext.csproj" />
+  </ItemGroup>
+
 </Project>
