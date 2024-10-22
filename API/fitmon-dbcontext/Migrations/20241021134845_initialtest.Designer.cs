@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using fitmon_dbcontext;
 
@@ -11,9 +12,11 @@ using fitmon_dbcontext;
 namespace fitmon_dbcontext.Migrations
 {
     [DbContext(typeof(FitmonDbContext))]
-    partial class FitmonDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241021134845_initialtest")]
+    partial class initialtest
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

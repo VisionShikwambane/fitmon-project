@@ -14,7 +14,7 @@ namespace fitmon_businesslogic
 
         protected readonly FitmonDbContext dbContext;
         protected readonly IMapper mapper;
-        protected readonly Guid moduleGuid;
+     
        
 
 
@@ -22,7 +22,7 @@ namespace fitmon_businesslogic
         {
             this.dbContext = dbContext;
             this.mapper = mapper;
-            this.moduleGuid = new Guid("96D07FE8-F728-4AC1-8954-30483A022C7B");
+          
            
         }
 
